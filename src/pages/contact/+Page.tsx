@@ -20,32 +20,38 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
-    
-    try {
-      // Append Web3Forms access key
-      const payload = {
-        ...formData,
-        access_key: "62635904-7a91-4e78-af32-9c4c1a520268", // Public access key mapping to shinnd98@gmail.com
-        subject: "New TikTok Ads Lead - " + formData.name
-      };
 
-      const res = await fetch('https://api.web3forms.com/submit', {
+    try {
+
+      const res = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify(payload)
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
       });
-      
+
       const json = await res.json();
-      if (!res.ok || !json.success) throw new Error(json.message || 'Failed to submit');
-      
+      if (!json.success) throw new Error();
+
       setStatus('success');
-      setFormData({ name: '', email: '', budget: '$5k - $10k', businessType: 'E-commerce', goals: '' });
+
+      setFormData({
+        name: '',
+        email: '',
+        budget: '$5k - $10k',
+        businessType: 'E-commerce',
+        goals: ''
+      });
+
       setTimeout(() => setStatus('idle'), 5000);
+
     } catch (err) {
       console.error(err);
       setStatus('error');
     }
   };
+
 
   const contactSchema = {
     "@context": "https://schema.org",
