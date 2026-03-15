@@ -1,0 +1,221 @@
+{
+  "_chunk-8TcEIBAJ.js": {
+    "file": "assets/chunks/chunk-8TcEIBAJ.js",
+    "name": "timer",
+    "imports": [
+      "_chunk-BrPTnl0X.js"
+    ]
+  },
+  "_chunk-BGgJq7Sa.js": {
+    "file": "assets/chunks/chunk-BGgJq7Sa.js",
+    "name": "trending-up",
+    "imports": [
+      "_chunk-BrPTnl0X.js"
+    ]
+  },
+  "_chunk-BrPTnl0X.js": {
+    "file": "assets/chunks/chunk-BrPTnl0X.js",
+    "name": "Loading",
+    "imports": [
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "_chunk-CLuy2_hq.js": {
+    "file": "assets/chunks/chunk-CLuy2_hq.js",
+    "name": "arrow-right",
+    "imports": [
+      "_chunk-BrPTnl0X.js"
+    ]
+  },
+  "_chunk-CNDXFCkh.js": {
+    "file": "assets/chunks/chunk-CNDXFCkh.js",
+    "name": "articles",
+    "imports": [
+      "_chunk-BrPTnl0X.js"
+    ]
+  },
+  "_chunk-DColCJso.js": {
+    "file": "assets/chunks/chunk-DColCJso.js",
+    "name": "video",
+    "imports": [
+      "_chunk-BrPTnl0X.js"
+    ]
+  },
+  "_chunk-DinA3W_r.js": {
+    "file": "assets/chunks/chunk-DinA3W_r.js",
+    "name": "initClientRouter",
+    "dynamicImports": [
+      "virtual:vike:page-entry:client:/src/pages/blog",
+      "virtual:vike:page-entry:client:/src/pages/blog/@slug",
+      "virtual:vike:page-entry:client:/src/pages/case-studies",
+      "virtual:vike:page-entry:client:/src/pages/contact",
+      "virtual:vike:page-entry:client:/src/pages/index",
+      "virtual:vike:page-entry:client:/src/pages/pricing",
+      "virtual:vike:page-entry:client:/src/pages/privacy-policy",
+      "virtual:vike:page-entry:client:/src/pages/services",
+      "virtual:vike:page-entry:client:/src/pages/terms-of-service"
+    ]
+  },
+  "_chunk-feMoQCyG.js": {
+    "file": "assets/chunks/chunk-feMoQCyG.js",
+    "name": "facebook",
+    "imports": [
+      "_chunk-BrPTnl0X.js"
+    ]
+  },
+  "_src_index-b3c78705.CKliaC-w.css": {
+    "file": "assets/static/src_index-b3c78705.CKliaC-w.css",
+    "src": "_src_index-b3c78705.CKliaC-w.css"
+  },
+  "node_modules/vike/dist/client/runtime-client-routing/entry.js": {
+    "file": "assets/entries/entry-client-routing.ItucUDTz.js",
+    "name": "entries/entry-client-routing",
+    "src": "node_modules/vike/dist/client/runtime-client-routing/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-DinA3W_r.js"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/blog": {
+    "file": "assets/entries/src_pages_blog.CchxxOLg.js",
+    "name": "entries/src/pages/blog",
+    "src": "virtual:vike:page-entry:client:/src/pages/blog",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-CNDXFCkh.js",
+      "_chunk-CLuy2_hq.js",
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/blog/@slug": {
+    "file": "assets/entries/src_pages_blog_-slug.BSR8fTaU.js",
+    "name": "entries/src/pages/blog/@slug",
+    "src": "virtual:vike:page-entry:client:/src/pages/blog/@slug",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-feMoQCyG.js",
+      "_chunk-CNDXFCkh.js",
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/case-studies": {
+    "file": "assets/entries/src_pages_case-studies.DXnhMD2K.js",
+    "name": "entries/src/pages/case-studies",
+    "src": "virtual:vike:page-entry:client:/src/pages/case-studies",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-DinA3W_r.js",
+      "_chunk-BGgJq7Sa.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/contact": {
+    "file": "assets/entries/src_pages_contact.ZlOj1JsJ.js",
+    "name": "entries/src/pages/contact",
+    "src": "virtual:vike:page-entry:client:/src/pages/contact",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-feMoQCyG.js",
+      "_chunk-DColCJso.js",
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/index": {
+    "file": "assets/entries/src_pages_index.COgErobD.js",
+    "name": "entries/src/pages/index",
+    "src": "virtual:vike:page-entry:client:/src/pages/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-DinA3W_r.js",
+      "_chunk-CLuy2_hq.js",
+      "_chunk-BGgJq7Sa.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/pricing": {
+    "file": "assets/entries/src_pages_pricing.DXNfDY-S.js",
+    "name": "entries/src/pages/pricing",
+    "src": "virtual:vike:page-entry:client:/src/pages/pricing",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-DinA3W_r.js",
+      "_chunk-8TcEIBAJ.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/privacy-policy": {
+    "file": "assets/entries/src_pages_privacy-policy.B0fyeeg4.js",
+    "name": "entries/src/pages/privacy-policy",
+    "src": "virtual:vike:page-entry:client:/src/pages/privacy-policy",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/services": {
+    "file": "assets/entries/src_pages_services.CtVhvOMP.js",
+    "name": "entries/src/pages/services",
+    "src": "virtual:vike:page-entry:client:/src/pages/services",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-8TcEIBAJ.js",
+      "_chunk-BGgJq7Sa.js",
+      "_chunk-DColCJso.js",
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/src/pages/terms-of-service": {
+    "file": "assets/entries/src_pages_terms-of-service.6O60Dhrs.js",
+    "name": "entries/src/pages/terms-of-service",
+    "src": "virtual:vike:page-entry:client:/src/pages/terms-of-service",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BrPTnl0X.js",
+      "_chunk-DinA3W_r.js"
+    ],
+    "css": [
+      "assets/static/src_index-b3c78705.CKliaC-w.css"
+    ]
+  }
+}

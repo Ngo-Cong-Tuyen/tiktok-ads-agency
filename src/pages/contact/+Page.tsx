@@ -22,13 +22,21 @@ export default function Contact() {
     setStatus('loading');
     
     try {
-      const res = await fetch('/api/contact', {
+      // Append Web3Forms access key
+      const payload = {
+        ...formData,
+        access_key: "62635904-7a91-4e78-af32-9c4c1a520268", // Public access key mapping to shinnd98@gmail.com
+        subject: "New TikTok Ads Lead - " + formData.name
+      };
+
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
       });
       
-      if (!res.ok) throw new Error('Failed to submit');
+      const json = await res.json();
+      if (!res.ok || !json.success) throw new Error(json.message || 'Failed to submit');
       
       setStatus('success');
       setFormData({ name: '', email: '', budget: '$5k - $10k', businessType: 'E-commerce', goals: '' });
